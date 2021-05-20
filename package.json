@@ -1,0 +1,36 @@
+{
+  "name": "bleApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "convert-string": "^0.1.0",
+    "npm-1568-pruebat": "^1.9.872",
+    "react": "17.0.1",
+    "react-native": "0.64.1",
+    "react-native-base64": "^0.2.1",
+    "react-native-ble-manager": "^7.4.2",
+    "react-native-ble-plx": "^2.0.2",
+    "react-native-bluetooth-serial-next": "^1.2.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/runtime": "^7.14.0",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.26.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.66.0",
+    "react-test-renderer": "17.0.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
